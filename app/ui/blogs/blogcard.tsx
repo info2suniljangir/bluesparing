@@ -8,13 +8,14 @@ const BlogCard = () => {
     <div>
       <div className="rounded-lg max-w-80 shadow-md">
           {/* Image part */}
-          <div className="">
+          <div className="w-80 h-72 relative">
             <Image
-              src="/slider_1.jpg"
+              src="/slider_2.jpg"
               alt="blog_image"
-              width={320}
-              height={280}
+              fill
               className="rounded-t-lg"
+              sizes="(max-width: 768px) 320px, (max-width: 1200px) 320px, 320px" // Define image size based on viewport width
+              style={{objectFit: 'cover'}}
             />
           </div>
           {/* text part */}

@@ -10,7 +10,7 @@ const BlogCard = () => {
           {/* Image part */}
           <div className="w-80 h-72 relative">
             <Image
-              src="/slider_2.jpg"
+              src="/Slider_2.jpg"
               alt="blog_image"
               fill
               className="rounded-t-lg"

@@ -11,6 +11,13 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        customOrange: '#fd7d6a',
+      },
+      width: {
+        'calc-50-14': 'calc(50% - 8px)',
+      },
+      boxShadow: {
+        'customShadow': '0 1rem 3rem #f5f3f3',
       },
     },
   },

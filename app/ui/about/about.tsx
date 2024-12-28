@@ -9,7 +9,7 @@ const About = () => {
           {/* Image Section */}
           <div className="w-1/2 px-3 pt-8 my-auto">
             <Image
-              src="/about_image.jpg"
+              src="/about_us_2.jpg"
               alt="about_image"
               width={400}
               height={300}

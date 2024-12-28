@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-
+import { ubuntu } from "../fonts";
 const Navbar = () => {
   return (
     <nav className="border border-gray-300 py-3 h-[90px] fixed top-0 bg-white z-10 w-full">
@@ -20,7 +20,7 @@ const Navbar = () => {
           <div className="h-10 border-s-2 border-gray-500"></div>
 
           <div>
-            <div className="font-bold text-xl mt-[-2px]">Blue Sparing</div>
+            <div className= {`${ubuntu.className} antialiased font-bold text-xl mt-[-2px]`}>Blue Sparing</div>
             <div className="text-xs mt-[-4px]">
               Think diffrent to be the best
             </div>

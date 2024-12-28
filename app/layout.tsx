@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { inter } from "./ui/fonts";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,7 +20,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: 'Blue Sparing',
-  description: 'The official Next.js Course Dashboard, built with App Router.',
+  description: 'Build your website or android application with blue sparing.',
   // metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
 };
 
@@ -31,7 +32,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+          // ${geistSans.variable} ${geistMono.variable} 
+        className={` ${inter.className}  antialiased`}
       >
         {children}
       </body>

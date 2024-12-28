@@ -11,6 +11,7 @@ const Footer = () => {
     <div
       className=" text-white py-12 "
       style={{ color: "#d6c4c4", background: "#0d0c0c" }}
+      id="footer"
     >
       <div className="max-w-6xl mx-auto ">
         {/* Top Section */}

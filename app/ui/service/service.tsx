@@ -6,7 +6,7 @@ import { FaCity } from "react-icons/fa";
 import ServiceOverview from "./overview";
 const Service = () => {
   return (
-    <div className="my-8">
+    <div className="my-8" id="service">
       {/* About top part */}
       <div className="flex justify-between flex-col md:flex-row max-w-6xl mx-auto">
         {/* Left Panel */}

@@ -6,7 +6,7 @@ import { FaMugHot } from "react-icons/fa";
 
 const Experience = () => {
   return (
-    <div className="bg-customOrange py-12">
+    <div className="bg-customOrange py-12" id="experience">
       <div className="max-w-6xl mx-auto text-center text-white py-12 px-4">
         {/* Heading */}
         <div className="max-w-lg mx-auto">

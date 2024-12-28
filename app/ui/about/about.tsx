@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="my-8">
+    <div className="my-8" id="about">
       <div className="max-w-6xl mx-auto py-12">
         <div className="flex justify-between px-4">
           {/* Image Section */}

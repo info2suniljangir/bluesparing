@@ -32,7 +32,7 @@ const Navbar = () => {
           <ul className="flex">
             <li className=" px-3 font-bold text-customOrange ">
               <Link
-                href="/Home"
+                href="/"
                 className="border-b-[1px] border-customOrange px-2"
               >
                 Home
@@ -40,7 +40,7 @@ const Navbar = () => {
             </li>
             <li className=" px-3 font-bold text-customOrange ">
               <Link
-                href="/Home"
+                href="#about"
                 className="hover:border-b-[1px] hover:border-customOrange px-2"
               >
                 About
@@ -48,7 +48,7 @@ const Navbar = () => {
             </li>
             <li className=" px-3 font-bold text-customOrange ">
               <Link
-                href="/Home"
+                href="#service"
                 className="hover:border-b-[1px] hover:border-customOrange px-2"
               >
                 Service
@@ -56,7 +56,7 @@ const Navbar = () => {
             </li>
             <li className=" px-3 font-bold text-customOrange ">
               <Link
-                href="/Home"
+                href="#blogs"
                 className="hover:border-b-[1px] hover:border-customOrange px-2"
               >
                 Blog
@@ -64,7 +64,7 @@ const Navbar = () => {
             </li>
             <li className=" px-3 font-bold text-customOrange ">
               <Link
-                href="/Home"
+                href="#footer"
                 className="hover:border-b-[1px] hover:border-customOrange px-2"
               >
                 Contact

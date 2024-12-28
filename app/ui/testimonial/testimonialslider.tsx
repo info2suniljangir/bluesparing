@@ -46,7 +46,7 @@ const TestimonialSlider = () => {
     prevArrow: <PrevArrow />,
   };
   return (
-    <div className="mt-16">
+    <div className="mt-16" id="testimonial">
       <div className="bg-customOrange py-20 px-4">
         <div className="slider-container relative max-w-6xl m-auto">
           <Slider {...settings}>

@@ -7,6 +7,7 @@ import Blogs from "./ui/blogs/blogs";
 // import Testimonials from "./ui/testimonial/testimonial";
 import Footer from "./ui/footer/footer";
 import TestimonialSlider from "./ui/testimonial/testimonialslider";
+import ContactUs from "./ui/contactus/contact";
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
         <Blogs />
         {/* <Testimonials /> */}
         <TestimonialSlider />
+        <ContactUs />
       </div>
 
 

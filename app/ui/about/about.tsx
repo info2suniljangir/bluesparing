@@ -13,7 +13,7 @@ const About = () => {
               alt="about_image"
               width={400}
               height={300}
-              className="rounded-lg"
+              className="rounded-lg w-auto h-auto"
               style={{ boxShadow: '30px 30px #fd7d6a'}}
             />
           </div>

@@ -5,6 +5,7 @@ import { TiSocialTwitterCircular } from "react-icons/ti";
 import { TiSocialGooglePlusCircular } from "react-icons/ti";
 import { DiGithub } from "react-icons/di";
 import { PiFacebookLogoBold } from "react-icons/pi";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -39,10 +40,18 @@ const Footer = () => {
                 Quick Links
               </h3>
             </div>
+            <Link href='#about'>
             <div className="text-[13px] leading-7 hover:text-customOrange">About</div>
+            </Link>
+            <Link href='#service'>
             <div className="text-[13px] leading-7 hover:text-customOrange">Services</div>
+            </Link>
+            <Link href='#blogs'>
+            <div className="text-[13px] leading-7 hover:text-customOrange">Blogs</div>
+            </Link>
+            <Link href='#testimonial'>
             <div className="text-[13px] leading-7 hover:text-customOrange">Testimonials</div>
-            <div className="text-[13px] leading-7 hover:text-customOrange">Contact Us</div>
+            </Link>
           </div>
           {/* Contact Info */}
           <div className="w-1/4 px-2">

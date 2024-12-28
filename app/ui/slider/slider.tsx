@@ -15,7 +15,7 @@ const ImageSlider = () => {
     slidesToScroll: 1,
   };
   return (
-    <div className="relative bg-customOrange">
+    <div className="relative bg-customOrange mt-20 pt-2">
       <div className="max-w-6xl flex mx-auto justify-between">
         {/* left Side Panel */}
         <div className="w-1/2">

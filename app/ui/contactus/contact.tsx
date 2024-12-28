@@ -62,29 +62,31 @@ const ContactUs = () => {
                   className="outline-none w-full"
                 />
               </div>
-              <button
-                type="submit"
-                className="border-2 border-customOrange text-center font-medium text-base w-full my-5 py-2 rounded"
-              >
-                Send Your Message
-              </button>
+              <div className="group">
+                <button
+                  type="submit"
+                  className="transition-all ease-in duration-1800 group-hover:duration-200 group-hover:ease-in-out border-2 group-hover:bg-customOrange group-hover:text-white border-customOrange text-center font-medium text-base w-full my-5 py-2 rounded"
+                >
+                  Send Your Message
+                </button>
+              </div>
             </form>
             {/* Contact information */}
             <div className="flex justify-center items-center gap-2 text-sm font-semibold">
-                <div>+91 96490 09500</div>
-                <div className="border-l-[1px] border-gray-600 h-6 "></div>
-                <div>support@bluesparing.com</div>
+              <div>+91 96490 09500</div>
+              <div className="border-l-[1px] border-gray-600 h-6 "></div>
+              <div>support@bluesparing.com</div>
             </div>
           </div>
           {/* image */}
           <div className="hidden md:block w-1/2  ">
-          <Image 
-          src="/team_image.png"
-          alt="/team_image"
-          height={500}
-          width={500}
-          className="mx-auto"
-          />
+            <Image
+              src="/team_image.png"
+              alt="/team_image"
+              height={500}
+              width={500}
+              className="mx-auto"
+            />
           </div>
         </div>
       </div>

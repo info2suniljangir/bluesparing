@@ -28,9 +28,12 @@ const About = () => {
               technology for our clients by offering tailored web and app
               development services. 
             </div>
-            <button className="text-white font-bold bg-customOrange border-2 border-customOrange hover:bg-white hover:text-customOrange px-9 py-3 rounded-full mt-5">
+            <div className="group">
+            <button className="transition-all ease-in duration-1800 group-hover:duration-200 group-hover:ease-in-out text-white font-bold bg-customOrange border-2 border-customOrange hover:bg-white hover:text-customOrange px-9 py-3 rounded-full mt-5">
             Read More
           </button>
+
+            </div>
           </div>
         </div>
       </div>

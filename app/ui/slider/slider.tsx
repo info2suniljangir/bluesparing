@@ -21,7 +21,9 @@ const ImageSlider = () => {
         <div className="w-1/2">
         <div className="text-white font-bold text-[40px]">Empowering your business</div>
         <div className="text-white font-bold text-[40px]">Next-Gen IT Solutions</div>
-        <button className="text-black font-bold hover:bg-customOrange border-2 border-customOrange hover:border-white hover:text-white bg-white px-9 py-3 rounded-full mt-10">Get Started</button>
+        <div className="group">
+        <button className="transition-all ease-in duration-1800 group-hover:duration-200 group-hover:ease-in-out text-black font-bold hover:bg-customOrange border-2 border-customOrange hover:border-white hover:text-white bg-white px-9 py-3 rounded-full mt-10">Get Started</button>
+        </div>
         </div>
         {/* // Slider Container */}
         <div className="border border-gray-300 w-1/3" >

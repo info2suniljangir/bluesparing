@@ -19,6 +19,9 @@ export default {
       boxShadow: {
         'customShadow': '0 1rem 3rem #f5f3f3',
       },
+      transitionDuration: {
+        '1800': '1800ms',
+      },
     },
   },
   plugins: [],

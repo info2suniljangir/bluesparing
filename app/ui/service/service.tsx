@@ -13,7 +13,7 @@ const Service = () => {
         <div className="w-2/3 flex flex-wrap  justify-center border-gray-300 ">
         {/* App Development */}
           <div className="group border border-customOrange hover:bg-customOrange hover:text-white rounded-lg mx-1 my-2 p-9 w-calc-50-14 ">
-            <div className="mb-2 text-customOrange group-hover:text-white">
+            <div className="transition-all group-hover:duration-1000 group-hover:ease-in-out mb-2 text-customOrange group-hover:text-white">
               <FaMobile className="text-[40px]" />
             </div>
             <div className="font-bold text-2xl">App Development</div>
@@ -29,7 +29,7 @@ const Service = () => {
           </div>
           {/* Consulting */}
           <div className="group border border-customOrange hover:bg-customOrange hover:text-white rounded-lg mx-1 my-2 p-9 w-calc-50-14 shadow-customShadow">
-            <div className="mb-2 text-customOrange group-hover:text-white">
+            <div className="transition-all group-hover:duration-1000 group-hover:ease-in-out mb-2 text-customOrange group-hover:text-white">
               <FaUsers className="text-[40px]" />
             </div>
             <div className="font-bold text-2xl">Consluting</div>
@@ -37,7 +37,7 @@ const Service = () => {
           </div>
           {/* Graphic Design */}
           <div className="group border border-customOrange hover:bg-customOrange hover:text-white rounded-lg mx-1 my-2 p-9 w-calc-50-14 shadow-customShadow">
-            <div className="mb-2 text-customOrange group-hover:text-white">
+            <div className="transition-all group-hover:duration-1000 group-hover:ease-in-out mb-2 text-customOrange group-hover:text-white">
               <FaCity className="text-[40px]" />
             </div>
             <div className="font-bold text-2xl">Graphics Design</div>
@@ -59,9 +59,12 @@ const Service = () => {
             customers. Trust us to be your partner in digital transformation and
             innovation.
           </div>
-          <button className="text-white font-bold bg-customOrange border-2 border-customOrange hover:bg-white hover:text-customOrange px-9 py-3 rounded-full mt-5">
+          <div className="group">
+          <button className="transition-all ease-in duration-1800 group-hover:duration-200 group-hover:ease-in-out text-white font-bold bg-customOrange border-2 border-customOrange hover:bg-white hover:text-customOrange px-9 py-3 rounded-full mt-5">
             Learn More
           </button>
+
+          </div>
         </div>
       </div>
       <ServiceOverview />
